@@ -1,0 +1,98 @@
+{
+    "breakfast": [
+        {
+            "id" : 1,
+            "item" : "Cafe Americano",
+            "price" : 500,
+            "img" : "FOTO"
+        },
+        {
+            "id" : 2,
+            "item" : "Cafe con leche",
+            "price" : 700
+        },
+        {
+            "id" : 3,
+            "item" : "Sandwich de jamon y queso",
+            "price" : 1000
+        },
+        {
+            "id" : 4,
+            "item" : "Jugo de frutas natural",
+            "price" : 700
+        }
+    ],
+    "lunch": [
+        {
+            "id" : 5,
+            "item" : "Hamburguesa simple res",
+            "price" : 1000
+        },
+        {
+            "id" : 6,
+            "item" : "Hamburguesa doble res",
+            "price" : 1500
+        },
+        {
+            "id" : 7,
+            "item" : "Hamburguesa simple pollo",
+            "price" : 1000
+        },
+        {
+            "id" : 8,
+            "item" :"Hamburguesa doble pollo",
+            "price" :1500
+        },
+        {
+            "id" : 9,
+            "item" : "Hamburguesa simple veggie",
+            "price" : 1000
+        },
+        {
+            "id" : 10,
+            "item" :"Hamburguesa doble veggie",
+            "price" :1500
+        },
+        {
+            "id" : 11,
+            "item" : "Queso",
+            "price" : 100
+        },
+        {
+            "id" : 12,
+            "item" : "Huevo",
+            "price" : 100
+        },
+        {
+            "id" : 13,
+            "item" : "Papas fritas",
+            "price" : 500
+        },
+        {
+            "id" : 14,
+            "item" : "Aros de cebolla",
+            "price" : 500
+        },
+        {
+            "id" : 15,
+            "item" : "Agua 500 ml",
+            "price" : 500
+        },
+        {
+            "id" : 16,
+            "item" : "Agua 750 ml",
+            "price" : 700
+        },
+        {
+            "id" :  17,
+            "item" : "Bebida 500 ml",
+            "price" : 700
+        },
+        {
+            "id": 18,
+            "item": "Bebida 750 ml",
+            "price" : 1000
+        }
+    ]
+    
+}
