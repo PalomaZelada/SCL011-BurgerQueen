@@ -3,8 +3,7 @@
         {
             "id" : 1,
             "item" : "Cafe Americano",
-            "price" : 500,
-            "img" : "FOTO"
+            "price" : 500
         },
         {
             "id" : 2,
