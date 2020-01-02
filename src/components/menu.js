@@ -28,18 +28,27 @@ class Menu extends Component {
   }
   savingOrders = () => {
     let newOrder= this.state.item
+    let newTotal= this.state.price
     db.collection("orders").add({
-      orderedItems: newOrder
+      orderedItems: newOrder,
+      price: newTotal
 
     })
     
       .then(function (docRef) {
         console.log("Document written with ID: ", docRef.id);
-      
+        alert("Pedido enviado a cocina")
+      }).then(()=>{
+      let emptyOrder= []
+      let emptyTotal= 0
+      this.setState({
+        item:emptyOrder,
+        price:emptyTotal
+        })
       })
-
       .catch(function (error) {
         console.error("Error adding document: ", error);
+        alert("Hubo un error en el envio")
       });   
   }
 
@@ -62,8 +71,17 @@ class Menu extends Component {
     return (
       <div>
         {dataLunch}
+        {this.state.item.map((order, i)=>{
+          return (
+            <div>
+              <p>
+                {order.item} 
+              </p>
+            </div>
+          )
+        })}
         <p>
-          {this.state.item.reduce( (acc, elem) => acc + elem.price, 0)}
+          ${this.state.item.reduce( (acc, elem) => acc + elem.price, 0)}
         </p>
         <div>
         <button onClick={()=>this.savingOrders()}>Enviar</button> 
