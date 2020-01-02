@@ -1,10 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-function BasicBtn (props){
-    return <button>{props.buttonName}</button>
+import React, { Component } from 'react';
+class Button extends Component {
+  render() {
+      return(
+    <button onClick={this.props.clicking.bind(this, this.props.products)}>{this.props.name} ${this.props.price}</button>
+      )
+  }
 }
-
-ReactDOM.render(
-    <BasicBtn buttonName="soy el boton"/>,
- document.getElementById("root"));
+export default Button;
