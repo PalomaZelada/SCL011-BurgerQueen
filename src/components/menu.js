@@ -26,6 +26,21 @@ class Menu extends Component {
 
   })
   }
+  deletingItem(id, price){
+    this.setState({
+      item: this.state.item.filter((elem, i) => {
+        return i !== id
+      })
+    })
+    let stateOrder = this.state.price
+    let orderPrice = price
+    let finalOrder = stateOrder - orderPrice
+    this.setState({
+      price: finalOrder
+    })
+    }
+  
+
   savingOrders = () => {
     let newOrder= this.state.item
     let newTotal= this.state.price
@@ -60,7 +75,8 @@ class Menu extends Component {
           clicking={this.addingItem}
           products={data}
           key={data.id}
-          name={data.item} price={data.price}
+          name={data.item} 
+          price={data.price}
         /> 
         </div>
 
@@ -74,21 +90,31 @@ class Menu extends Component {
         {this.state.item.map((order, i)=>{
           return (
             <div>
-              <p>
-                {order.item} 
+               <p>
+                {order.item} ${order.price}
+              <span>
+              <button
+              onClick={this.deletingItem.bind(this, i, order.price)}
+              >
+                Eliminar
+              </button>    
+              </span>
               </p>
             </div>
           )
-        })}
+        })
+        }
         <p>
-          ${this.state.item.reduce( (acc, elem) => acc + elem.price, 0)}
+         $ {this.state.price}
         </p>
         <div>
-        <button onClick={()=>this.savingOrders()}>Enviar</button> 
+        <button 
+        onClick={()=>this.savingOrders()}>
+          Enviar
+        </button> 
         </div>
       </div>
     )
-
   }
 }
 
