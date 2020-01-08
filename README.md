@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Burguer Queen** 
 
-## Available Scripts
+En el dia de hoy las aplicaciones son la herramienta mas rapida y eficiente para buscar, pedir o enviar cosas obejtos o ya sea algun servicio que uno desee. Burguer Queen es una aplicacion que ayuda a las persona que trabajan en el area de la gastronomia.
 
-In the project directory, you can run:
+**Objetivo del Proyecto**
 
-### `npm start`
+Principalmente nos enfocamos en el punto mas demandado en un restauran que es donde se pide la orden y cuando se empieza a elavorar la orden. Que ofrecemos una plataforma de facil y rapido uso en la hora de pedir el pedido para que el cheff reciva la orden y la prepare de una forma mas facil y rapida, y llegue posteriormente a su mesa.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**flujo del Inicial**
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Nuestro flujo muestra nuestra prepectiva nuestro proyecto.
 
-### `npm test`
+https://drive.google.com/file/d/18bQeq5Nr_epaCCMZ1rAqeCeefcO9G2up/view
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+*** planificacion del Proyecto**
+nuestar planificacion esta organizada en trello que nos permite ver lo vamos haciendo y poder llevar un control mas efectivo de las cosas que uno va avanzando.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://trello.com/b/qXEjoaWd/burger-queen
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+**Prototipo de baja fidelidad**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Nuestro prototipos estan basado en un app basica simple y acorde con lo requerido para un restauran.
+https://balsamiq.cloud/sh95ipi/p3jwwcv/r1F4A
 
-### `npm run eject`
+**Prototipo de alta fidelidad**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Lo creamo en base lo que ibamos planteando la pagina y su requisitos basico de uso y lo recreamos en figma para ver como se veria al final.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+https://www.figma.com/file/7vRRZ7UMS4OUhiuLEJJCNo/burguer-queen?node-id=0%3A1
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Historia de Usuario**
 
-## Learn More
+Nuestras historia de usuariio estan basada en la necesidad del mesero y el cheff de persona que trabajan en el are de la gastronomia.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Primera historia de usuario 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Lograr tomar pedido por la app y enviarlos a estado de pedidos ahi sera recibido por el cheff.
 
-### Code Splitting
+Segunda historia de usuario 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Lograr que se vea un lista de pedidos con nombre d ela mesa y poder cambiar la orden o eliminar cuando ya este finalizado.
 
-### Analyzing the Bundle Size
+Tercera Historia de usuario 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Aca el mesero vera la oren ya lista o en espera segun la demanda haci el mesero podra ver el estado de la mesa y entregarlos cuando esten listo.
