@@ -4,11 +4,12 @@ import Home from './components/home';
 import Menu from './components/menu';
 import Breakfast from './components/breakfast';
 import './style.css';
+//import './App.css';
 
   export default function App() {
     return (
       <Router>
-        <div className="whole">
+        <div>
           <ul>
             <li>
               <Link to="/">Home</Link>
