@@ -1,4 +1,11 @@
 *{
-    font-size:30px;
+    font: 10px;
     font-family: sans-serif;
+}
+
+.whole{
+    background-image: url(./images/fondo.jpg);
+    background-repeat: no-repeat;
+    width: 770px;
+    height: 1030px;
 }
