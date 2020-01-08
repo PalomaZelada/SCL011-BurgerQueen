@@ -1,7 +1,10 @@
 .btnBasic{
     color: white;
-    width: 200px;
+    width: 265px;
     height: 38px;
-    background-color: #F52F41;
+    background-color: #607d8b;
     font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+
 }

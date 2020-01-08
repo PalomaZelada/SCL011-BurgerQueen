@@ -1,3 +1,11 @@
 *{
-    background-color: sandybrown;
+    font: 10px;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(./images/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    /* background-color: #4d5054; */
 }

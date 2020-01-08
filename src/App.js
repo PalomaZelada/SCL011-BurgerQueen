@@ -3,8 +3,9 @@ import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import Home from './components/home';
 import Menu from './components/menu';
 import Breakfast from './components/breakfast';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
-//import './App.css';
+import './App.css';
 
   export default function App() {
     return (
