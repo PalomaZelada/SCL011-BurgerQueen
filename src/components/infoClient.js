@@ -14,7 +14,7 @@ class Client extends Component {
                 <br></br>
                 <br></br>
 
-                <input type="text" onChange={this.props.client} />
+                <input type="text" placeholder="Nombre cliente" onChange={this.props.client} />
             </div>
             )
     }

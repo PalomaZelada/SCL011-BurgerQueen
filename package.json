@@ -2,6 +2,7 @@
   "name": "burger-queen-tmp",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://burger-queen-9b026.firebaseapp.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

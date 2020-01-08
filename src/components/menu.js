@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import BasicButton from './basicButton';
 import data1 from '../data/data.json';
 import db from '../data/firebaseKey';
-import Client from './infoClient'
-;
+import Client from './infoClient';
 class Menu extends Component {
   constructor(props) {
     super(props);
