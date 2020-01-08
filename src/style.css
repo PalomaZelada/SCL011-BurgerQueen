@@ -1,10 +1,53 @@
-*{
-    font: 10px;
-    font-family: sans-serif;
+.boxStyle{
+    background-color: #90a4ae;
+    color: black;
+    padding: none;
+    border: none;
+    width: 380px;
+    border-radius:15px;
+    text-align: center;
+    left: 45%;
+    top: -600px;
+    position: relative;
 }
-body{
-    background-image: url(./images/fondo2.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    /* background-color: #4d5054; */
+.boxStyle2{
+    background-color: #90a4ae;
+    color: black;
+    padding: none;
+    border: none;
+    width: 380px;
+    border-radius:15px;
+    text-align: center;
+    left: 45%;
+    top: -200px;
+    position: relative;
+}
+.totalStyle{
+    position: relative;
+    left: 45%;
+    top: -600px;
+    background-color:white;
+    width: 380px;
+    text-align: center;
+}
+.totalStyle2{
+    position: relative;
+    left: 45%;
+    top: -200px;
+    background-color:white;
+    width: 380px;
+    text-align: center;
+    }
+.inputLocation{
+    left: 45%;
+    top: -600px;
+    position: relative;   
+    width:400px
+
+}
+.inputLocation2{
+    left: 45%;
+    top:-200px;
+    position: relative;   
+    width:400px
 }
