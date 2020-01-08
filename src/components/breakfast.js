@@ -10,7 +10,8 @@ class Breakfast extends Component {
     this.state = {
       data: data1.breakfast,
       item: [],
-      price: 0
+      price: 0,
+      client: ''
 
     }
   }
@@ -29,7 +30,14 @@ class Breakfast extends Component {
   this.setState({
     price: orderTotal
   })
-  }
+  }  
+  //Funcion para guardar input del cliente
+  handleInputChange = event => {
+    this.setState({
+      [event.name] :event.value
+    })
+    }
+
   //Funcion para eliminar items del pedido y restar el valor del total
   deletingItem(id, price){
     this.setState({
@@ -49,33 +57,41 @@ class Breakfast extends Component {
     }
   //Aqui guardamos los pedidos en firebase
   savingOrders = () => {
-  //Guardo en variables los estados actuales del array item y precio
-    let newOrder= this.state.item
-    let newTotal= this.state.price
-    db.collection("orders").add({
-      orderedItems: newOrder,
-      price: newTotal
-    })
-    
-      .then(function (docRef) {
-        console.log("Document written with ID: ", docRef.id);
-  //Cuando se guarda el pedido se muestra el mensaje que fue enviado a cocina
-        alert("Pedido enviado a cocina")
+    //Guardo en variables los estados actuales del array item y precio
+      let newOrder= this.state.item
+      let newTotal= this.state.price
+      let newClient= this.state.client
+      let newTable= this.state.table
+      db.collection("orders").add({
+        clientName:newClient,
+        table:newTable,
+        orderedItems: newOrder,
+        price: newTotal
       })
-  //Aqui limpio item y price para inicia un pedido nuevo
-      .then(()=>{
-      let emptyOrder= []
-      let emptyTotal= 0
-      this.setState({
-        item:emptyOrder,
-        price:emptyTotal
+      
+        .then(function (docRef) {
+          console.log("Document written with ID: ", docRef.id);
+    //Cuando se guarda el pedido se muestra el mensaje que fue enviado a cocina
+          alert("Pedido enviado a cocina")
         })
-      })
-      .catch(function (error) {
-        console.error("Error adding document: ", error);
-        alert("Hubo un error en el envio")
-      });   
-  }
+    //Aqui limpio item y price para inicia un pedido nuevo
+        .then(()=>{
+        let emptyOrder= []
+        let emptyTotal= 0
+        let emptyInput= ''
+        let emptyTable=''
+        this.setState({
+          item:emptyOrder,
+          price:emptyTotal,
+          client:emptyInput,
+          table:emptyTable
+          })
+        })
+        .catch(function (error) {
+          console.error("Error adding document: ", error);
+          alert("Hubo un error en el envio")
+        });   
+    }
 
   render() {
     const dataBreakfast = this.state.data.map((data, i) => {
@@ -96,8 +112,11 @@ class Breakfast extends Component {
 
     return (
       <div>
-        <Client />
+        <Client 
+        change={event=>this.handleInputChange(event.target)}
+        />
         {dataBreakfast}
+        <p>Mesa n° {this.state.table}- Nombre: {this.state.client}</p>
         {this.state.item.map((order, i)=>{
           return (
             <div>
