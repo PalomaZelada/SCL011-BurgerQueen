@@ -3,10 +3,12 @@ import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import Home from './components/home';
 import Menu from './components/menu';
 import Breakfast from './components/breakfast';
+import './style.css';
+
   export default function App() {
     return (
       <Router>
-        <div>
+        <div className="whole">
           <ul>
             <li>
               <Link to="/">Home</Link>
