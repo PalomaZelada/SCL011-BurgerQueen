@@ -1,26 +1,28 @@
-**Burguer Queen** 
+**Burger Queen** 
 
-En el dia de hoy las aplicaciones son la herramienta mas rapida y eficiente para buscar, pedir o enviar cosas obejtos o ya sea algun servicio que uno desee. Burguer Queen es una aplicacion que ayuda a las persona que trabajan en el area de la gastronomia.
+En el dia de hoy las aplicaciones son la herramienta mas rapida y eficiente para buscar, pedir o enviar cosas objetos o ya sea algun servicio que uno desee. Burger Queen es una aplicacion que ayuda a las persona que trabajan en el area de la gastronomia.
 
 **Objetivo del Proyecto**
 
-Principalmente nos enfocamos en el punto mas demandado en un restauran que es donde se pide la orden y cuando se empieza a elavorar la orden. Que ofrecemos una plataforma de facil y rapido uso en la hora de pedir el pedido para que el cheff reciva la orden y la prepare de una forma mas facil y rapida, y llegue posteriormente a su mesa.
+Principalmente nos enfocamos en el punto mas demandado en un restaurant que es donde se pide la orden y cuando se empieza a elaborar la orden. Ofrecemos una plataforma de facil y rapido uso en la hora de pedir el pedido para que el cheff reciba la orden y la prepare de una forma mas facil y rapida, y llegue posteriormente a su mesa.
 
-**flujo del Inicial**
+**Flujo del Inicial**
 
-Nuestro flujo muestra nuestra prepectiva nuestro proyecto.
+Nuestro flujo muestra nuestro planteamiento inicial del proyecto.
 
 https://drive.google.com/file/d/18bQeq5Nr_epaCCMZ1rAqeCeefcO9G2up/view
 
 
-*** planificacion del Proyecto**
-nuestar planificacion esta organizada en trello que nos permite ver lo vamos haciendo y poder llevar un control mas efectivo de las cosas que uno va avanzando.
+*** Planificacion del Proyecto**
+
+Nuestra planificacion esta organizada en trello que nos permite ver como vamos avanzando y poder llevar un control mas efectivo de las tareas que se van realizando.
 
 https://trello.com/b/qXEjoaWd/burger-queen
 
 **Prototipo de baja fidelidad**
 
-Nuestro prototipos estan basado en un app basica simple y acorde con lo requerido para un restauran.
+Nuestro prototipos estan basado en un app basica simple y acorde con lo requerido para un restaurant
+.
 https://balsamiq.cloud/sh95ipi/p3jwwcv/r1F4A
 
 **Prototipo de alta fidelidad**
@@ -32,16 +34,21 @@ https://www.figma.com/file/7vRRZ7UMS4OUhiuLEJJCNo/burguer-queen?node-id=0%3A1
 
 **Historia de Usuario**
 
-Nuestras historia de usuariio estan basada en la necesidad del mesero y el cheff de persona que trabajan en el are de la gastronomia.
+Nuestras historia de usuario estan basada en la necesidad del mesero y el chef del restaurant.
 
-Primera historia de usuario 
+**Primera historia de usuario**
 
-Lograr tomar pedido por la app y enviarlos a estado de pedidos ahi sera recibido por el cheff.
+Lograr tomar pedido por la app y enviarlos a estado de pedidos ahi sera recibido por el chef.
 
-Segunda historia de usuario 
+**Segunda historia de usuario**
 
-Lograr que se vea un lista de pedidos con nombre d ela mesa y poder cambiar la orden o eliminar cuando ya este finalizado.
+Lograr que se vea un lista de pedidos con nombre de la mesa y poder cambiar la orden o eliminar cuando ya este finalizado.
 
-Tercera Historia de usuario 
+**Tercera historia de usuario**
 
-Aca el mesero vera la oren ya lista o en espera segun la demanda haci el mesero podra ver el estado de la mesa y entregarlos cuando esten listo.
+Aca el mesero vera la orden ya lista o en espera segun la demanda asi el mesero podra ver el estado de la mesa y entregar los pedidos a medida que esten listo.
+
+**LightHouse**
+
+A continuación se adjunta el reporte generado por Lighthouse.
+
