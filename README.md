@@ -12,7 +12,7 @@ Nuestro flujo muestra nuestro planteamiento inicial del proyecto.
 
 ![Flujo app](https://github.com/PalomaZelada/SCL011-BurgerQueen/blob/master/src/images/flujo%20app.jpg)
 
-*** Planificacion del Proyecto**
+**Planificacion del Proyecto**
 
 Nuestra planificacion esta organizada en trello que nos permite ver como vamos avanzando y poder llevar un control mas efectivo de las tareas que se van realizando.
 
@@ -21,7 +21,7 @@ https://trello.com/b/qXEjoaWd/burger-queen
 **Prototipo de baja fidelidad**
 
 Nuestro prototipos estan basado en un app basica simple y acorde con lo requerido para un restaurant
-.
+
 https://balsamiq.cloud/sh95ipi/p3jwwcv/r1F4A
 
 **Prototipo de alta fidelidad**
