@@ -10,8 +10,7 @@ Principalmente nos enfocamos en el punto mas demandado en un restaurant que es d
 
 Nuestro flujo muestra nuestro planteamiento inicial del proyecto.
 
-https://drive.google.com/file/d/18bQeq5Nr_epaCCMZ1rAqeCeefcO9G2up/view
-
+![Flujo app](https://github.com/PalomaZelada/SCL011-BurgerQueen/blob/master/src/images/flujo%20app.jpg)
 
 *** Planificacion del Proyecto**
 
@@ -52,3 +51,4 @@ Aca el mesero vera la orden ya lista o en espera segun la demanda asi el mesero 
 
 A continuación se adjunta el reporte generado por Lighthouse.
 
+![Reporte Lighthouse](https://github.com/PalomaZelada/SCL011-BurgerQueen/blob/master/src/images/lighthouse.jpg)
