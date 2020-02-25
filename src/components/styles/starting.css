@@ -1,10 +1,32 @@
 .btnBasic{
     color: white;
-    width: 265px;
-    height: 38px;
+    width: auto;
+    height: auto;
     background-color: #607d8b;
+    font-size: 16px;
     font-weight: bold;
-    font-size: 14px;
     text-align: left;
-
+    padding: 10px 8px;
+    margin: 5px 15px; 
+    border-radius: 5px;;
+}
+.linkInicio{
+    background-color: white;
+    color: #2c8e01;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 40px 10px;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    width: 200px;
+}
+.btnLocation{
+    margin:100px 280px;
+}
+.infoC{
+    margin: 5px 15px;
+}
+.totalBox{
+    margin:30px 0px 0px 400px
 }

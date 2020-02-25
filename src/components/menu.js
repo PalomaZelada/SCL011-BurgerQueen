@@ -3,7 +3,8 @@ import BasicButton from './basicButton';
 import data1 from '../data/data.json';
 import db from '../data/firebaseKey';
 import Client from './infoClient';
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
+import './styles/starting.css';
 
 class Menu extends Component {
   constructor(props) {
@@ -137,6 +138,7 @@ class Menu extends Component {
           )
         })
         }
+        <div className="totalBox">
         <p className="totalStyle">
           $ {this.state.price}
         </p>
@@ -147,6 +149,7 @@ class Menu extends Component {
             variant="primary">
             Enviar
         </Button>
+        </div>
         </div>
       </div>
     )
